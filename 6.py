@@ -15,5 +15,6 @@ for x in ifconfig_list:
      #將符合IP格式的資料擷取出來
     if re.match('(\d{1,3}.\d{1,3}.\d{1,3}.\d{1,3})',y):
         print(y)
+    ##將符合MAC格式的資料擷取出來
     if re.match('(\w{1,2}:\w{1,2}:\w{1,2}:\w{1,2}:\w{1,2}:\w{1,2})',y):
         print(y)
